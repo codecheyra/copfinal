@@ -1,0 +1,35 @@
+/* Adjust the height of the text on the image */
+.text-on-image {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: brown;
+    text-align: center;
+  }
+  
+  /* Set the text styles */
+  .text-on-image h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  
+  .text-on-image p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Set the image to take up the full width of the screen */
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+  }
+
